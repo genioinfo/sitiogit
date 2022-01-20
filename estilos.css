@@ -1,0 +1,29 @@
+.bordecito {
+    border:  1px dotted blueviolet;
+    
+    padding-left: 5px;
+    padding-right: 5px;
+    color: violet;
+}
+p {
+    color: cadetblue;
+}
+a {
+    color: yellowgreen;
+    text-decoration: none;
+
+}
+a:hover {
+    color: rgb(56, 173, 20);
+    font-size: large;
+}
+#curas {
+    color: purple;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+.varVirus {
+    font-size: 2em;
+    color: green;
+
+}

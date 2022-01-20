@@ -1,0 +1,1 @@
+Realizando una página sencilla utilizando git y la terminal desde visual studio code
