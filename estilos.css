@@ -27,6 +27,18 @@ a:hover {
     color: green;
 
 }
+#contenido {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(197, 180, 216);
+
+}
 .bloque_izquierda {
-    align-content: center;
+    display: inline-block;
+    width: 40%;
+}
+.bloque_derecha {
+    display: inline-block;
+    width: 40%;
 }
