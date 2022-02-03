@@ -9,7 +9,7 @@ p {
     color: cadetblue;
 }
 a {
-    color: yellowgreen;
+    color: rgb(50, 104, 205);
     text-decoration: none;
 
 }
@@ -30,7 +30,7 @@ a:hover {
 #contenido {
     width: 90%;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(197, 180, 216);
 
 }
@@ -39,6 +39,17 @@ a:hover {
     width: 40%;
 }
 .bloque_derecha {
-    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
     width: 40%;
+    padding-right: 45px;
+}
+ul ul {
+    list-style: square;
+    
+}
+#horizontal ul li{
+    display: inline-block;
+    text-decoration: none;
 }
