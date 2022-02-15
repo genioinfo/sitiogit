@@ -58,6 +58,12 @@ table {
     width: 90%;
     margin: auto;
 }
-table, td {
+table, td, th {
     border: double 1px #333333;
+}
+td.col2 {
+    width: 20%;
+}
+td.col3 {
+    width: 25%;
 }
