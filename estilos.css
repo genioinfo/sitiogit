@@ -55,15 +55,32 @@ ul ul {
 }
 table {
     border-collapse: collapse;
-    width: 90%;
+    width: 60%;
     margin: auto;
 }
 table, td, th {
-    border: double 1px #333333;
+    border: double 2px #333333;
+    border-color: white;
+    text-align: center;
+    background-color: sandybrown;
 }
-td.col2 {
-    width: 20%;
+th.col2 {
+    width: 15%;
 }
-td.col3 {
+th.col3 {
     width: 25%;
+}
+td, th {
+    padding: 3px;
+}
+th {
+    background-color: salmon;
+}
+iframe{
+    border: salmon;
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 300px;
+
 }
