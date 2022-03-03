@@ -9,11 +9,19 @@
 <body>
     <h1>Registro Nuevo Usuario</h1>
     <form action="https://juliantejada.com/registrousuario.php" method="post">
-        <label for="nombreNvo">Nombre</label>
+        <label for="nombreNvo">Nombre: </label>
         <input type="text" name="nombreNvo" id="nombreNvo" placeholder="Escribe Nombre">
         <br/>
-        <input type="color"> <br/>
-        <input type="file">
+        <label for="apellidoNvo">apellido: </label>
+        <input type="text" name="apellidoNvo" id="apellidoNvo" placeholder="Escribe apellido"><br/>
+        <label for="fechaNacimiento">Fecha de Nacimiento: </label><br/>
+        <input type="date" name="fechaNacimiento" id="fechaNacimiento"><br/>
+        <label for="colorFavorito">Selecciona tu color favorito</label><br/>
+        <input type="color" value="#4B8BF4" name="colorFavorito" id="colorFavorito"> <br/>
+        <label for="fotoPerfil">Sube tu foto</label><br/>
+        <input type="file" name="fotoPerfil" id="fotoPerfil"><br/>
+        <input type="submit">
+        <input type="reset">
     </form>
 </body>
 </html>
