@@ -11,13 +11,27 @@
     <form action="https://juliantejada.com/registrousuario.php" method="post">
         <fieldset>
             <legend>Datos de Nuevo Usuario</legend>
+            <label for="busqueda">Buscar: </label>
+            <input type="search" name="busqueda" id="busqueda"><br/>
             <label for="nombreNvo">Nombre: </label>
             <input type="text" name="nombreNvo" id="nombreNvo" placeholder="Escribe Nombre">
             <br/>
             <label for="apellidoNvo">apellido: </label>
             <input type="text" name="apellidoNvo" id="apellidoNvo" placeholder="Escribe apellido"><br/>
             <label for="fechaNacimiento">Fecha de Nacimiento: </label><br/>
-            <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+            <input type="date" name="fechaNacimiento" id="fechaNacimiento"><br/>
+            <fieldset>
+                <legend>Sexo:</legend>
+                <label for="hombre">Hombre</label>
+            <input type="radio" name="sexo" id="hombre" value="hombre">
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="sexo" id="mujer" value="mujer">
+            <label for="noBinario">No binario</label>
+            <input type="radio" name="sexo" id="noBinario" value="noBinario">
+            </fieldset>
+            <br/>
+            <label for="correo">E-mail</label>
+            <input type="email" name="correo" id="correo" placeholder="correo@ejemplo.com" multiple>
         </fieldset>
         <br/>
         <fieldset>
@@ -27,9 +41,14 @@
             <label for="colorFavorito">Selecciona tu color favorito</label><br/>
             <input type="color" value="#4B8BF4" name="colorFavorito" id="colorFavorito"> <br/>
             <label for="fotoPerfil">Sube tu foto</label><br/>
-            <input type="file" name="fotoPerfil" id="fotoPerfil">
+            <input type="file" name="fotoPerfil" id="fotoPerfil"><br/>
+            <label for="horasLaborales">Cuantas horas quiere trabajar:</label>
+            <input type="range" name="horasLaborales" id="horasLaborales" min="2" max="12" value="8">
+            
         </fieldset>
         <br/>
+        <label for="comentarios">Comentarios: </label>
+        <input type="textarea" name="comentarios" id="comentarios">
         <input type="submit">
         <input type="reset">
     </form>
