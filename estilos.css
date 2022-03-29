@@ -88,3 +88,8 @@ iframe{
     width: 120px;
     text-align: center;
 }
+label {
+    width: 130px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
