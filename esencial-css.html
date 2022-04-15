@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso esencial CSS linkedin learning</title>
     <link rel="stylesheet" href="estilos/estilo-curso-css.css">
+    <style>
+        header h1 {
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,7 +21,57 @@
     </nav>
     <aside>
         <section>
-            <article></article>
+            <article>
+                <h2>Especifidad</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Selector</th>
+                            <th>ID</th>
+                            <th>Clases</th>
+                            <th>Elements</th>
+                            <th>spedificity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>body</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>#contenidoPrincipal</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>.quote</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>div p</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>#sidebar p</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>101</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
         </section>
     </aside>
 </body>
