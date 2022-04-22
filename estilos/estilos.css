@@ -93,3 +93,9 @@ label {
     display: inline-block;
     margin-bottom: 8px;
 }
+header {
+    text-align: center;
+    background-color: lightslategray;
+    color: maroon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
