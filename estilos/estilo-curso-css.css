@@ -1,3 +1,14 @@
 h1{
     color: slateblue;
 }
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-indent: 2%;
+}
+/* Utilizar modificadores de fuente, estilo font-style y ancho font-weight*/
+p {
+    font-weight: lighter;
+    font-style: oblique;
+    line-height: 1.6em;
+}
