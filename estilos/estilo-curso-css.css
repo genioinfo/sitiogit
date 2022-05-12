@@ -1,8 +1,8 @@
 h1{
     color: slateblue;
 }
-h2 {
-    font-family: 'Times New Roman', Times, serif;
+h2, h3 {
+    font-family: 'Merienda One', cursive;
     text-transform: uppercase;
     text-indent: 2%;
 }
@@ -10,5 +10,7 @@ h2 {
 p {
     font-weight: lighter;
     font-style: oblique;
-    line-height: 1.6em;
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
