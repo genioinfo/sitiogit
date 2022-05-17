@@ -14,3 +14,19 @@ p {
     font-family: 'Roboto', sans-serif;
     text-align: justify;
 }
+section p {
+    font-size: 1.2em;
+    font-weight: 200;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    
+}
+table td {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    text-decoration: dashed;
+}
