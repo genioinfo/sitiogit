@@ -1,5 +1,7 @@
 h1{
-    color: slateblue;
+    color: rgb(169, 162, 209);
+    font-size: 2em;
+    background-color: rgb(0, 0, 0);
 }
 h2, h3 {
     font-family: 'Merienda One', cursive;
@@ -29,4 +31,18 @@ table td {
     font-variant: small-caps;
     text-transform: lowercase;
     text-decoration: dashed;
+}
+div {
+    background-color:cadetblue;
+    padding: 1px;
+}
+div p {
+   font-family: 'Courier New', Courier, monospace;
+   color: brown; 
+   font-size: larger;
+   font-weight: 600;
+   background-color: antiquewhite;
+   /* El primer valor es el superior y de ahí en sentido a  manecillas del reloj */
+   padding: 10px 20px 15px 30px;
+   margin: 4px 1px;
 }
