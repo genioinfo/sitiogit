@@ -32,9 +32,29 @@ table td {
     text-transform: lowercase;
     text-decoration: dashed;
 }
-div {
+#contenedor {
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    padding: 20px;
+    overflow: hidden;
+}
+#contenido {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    padding: 60px;
+}
+#dos {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 2px;
+}
+/* div {
     background-color:cadetblue;
     padding: 1px;
+    width: 100%;
 }
 div p {
    font-family: 'Courier New', Courier, monospace;
@@ -42,7 +62,13 @@ div p {
    font-size: larger;
    font-weight: 600;
    background-color: antiquewhite;
-   /* El primer valor es el superior y de ahí en sentido a  manecillas del reloj */
+   El primer valor es el superior y de ahí en sentido a  manecillas del reloj
    padding: 10px 20px 15px 30px;
    margin: 4px 1px;
-}
+   width: 92%;
+   border-top: 6px solid rebeccapurple;
+   border-left: 4px dotted blue;
+   border-bottom: 4px double black;
+   border-right: 5px groove violet;
+   text-align: center;
+} */
