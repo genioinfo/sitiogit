@@ -38,6 +38,7 @@ table td {
     background-color: red;
     padding: 20px;
     overflow: hidden;
+    /* oculta lo que sobresale overflow*/
 }
 #contenido {
     width: 100px;
@@ -50,6 +51,8 @@ table td {
     height: 200px;
     background-color: red;
     margin-top: 2px;
+    border: solid 6px;
+    border-right: solid 12px green;
 }
 /* div {
     background-color:cadetblue;
@@ -72,3 +75,12 @@ div p {
    border-right: 5px groove violet;
    text-align: center;
 } */
+#tres {
+    width: 200px;
+    height: 120px;
+    background-image: images/Akira_Toriyama;
+    
+}
+/*Colores por nombre:
+https://www.w3.org/TR/2022/REC-css-color-3-20220118/
+*/
